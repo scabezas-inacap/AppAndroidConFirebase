@@ -35,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
         // Inicializar Firebase Auth
         mAuth = FirebaseAuth.getInstance();
 
-// Referenciar Vistas
+        // Referenciar Vistas
         etUsername = findViewById(R.id.etUsername); // Asegúrate que este ID exista en tu XML
         etPassword = findViewById(R.id.etPassword); // Asegúrate que este ID exista en tu XML
         btnRegistrar = findViewById(R.id.btnRegistrar); // Asegúrate que este ID exista en tu XML
